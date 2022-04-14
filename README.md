@@ -25,10 +25,10 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
 ## Key Features
 - Content organized by mental states.
 - Topic of the Day.
-- Content consisting of: 
- - Verses (Over a 1000 <u>handpicked</u> for specific topics)
- - Videos (<u>Handpicked</u> for specific topics)
- - User posted Testimonies.
+- Content consisting of curated: 
+  - Verses (Over a 1000 <u>handpicked</u> for specific topics)
+  - Videos (<u>Handpicked</u> for specific topics)
+  - User posted Testimonies.
 - Favoriting any content to save for later.
 - How Are You Feeling feature to help you discover content depending on your general state of mind.
 
