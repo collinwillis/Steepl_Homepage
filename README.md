@@ -33,19 +33,19 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
 
 <br>
 
-## Design Diagrams
+# Design Diagrams
 ------------
-### Usage Flow Chart
+## Usage Flow Chart
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/flowchart.png' width=480>
 </div>
 
-###
+##
 ------------
 
 <br>
 
-### Sitemap
+## Sitemap
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/sitemap.png' width=480>
 </div>
@@ -54,7 +54,7 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
 
 <br>
 
-### Schema Design Diagram
+## Schema Design Diagram
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/er_diagram.png' width=480>
 </div>
@@ -63,7 +63,7 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
 
 <br>
 
-### Video Retrieval Diagram
+## Video Retrieval Diagram
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/video_diagram1.png' width=480>
 </div>
@@ -72,11 +72,11 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
 
 <br>
 
-## Code Snippits
+# Code Snippits
 ------------
 <br>
 
-### Topic of the Day Function
+## Topic of the Day Function
 ```javascript
 const topicOTD = async () => {
   var dateObj = new Date();
@@ -108,7 +108,7 @@ const topicOTD = async () => {
 ------------
 <br>
 
-### Youtube Data API Video Retrieval Function
+## Youtube Data API Video Retrieval Function
 ```javascript
 async function getVideoDetailsAsJSON(videoIDs) {
   const videoJson = [];
@@ -133,7 +133,7 @@ async function getVideoDetailsAsJSON(videoIDs) {
 ------------
 <br>
 
-### "How Are You Feeling" Content Randomizer Function
+## "How Are You Feeling" Content Randomizer Function
 ```javascript
 useEffect(async () => {
     setLoading(true);
@@ -187,7 +187,7 @@ useEffect(async () => {
 
 ------------
 
-### Credits/Links
+# Credits/Links
 Technologies/Software that power Steepl:
 
 [React Native](https://github.com/facebook/react-native "React Native")
