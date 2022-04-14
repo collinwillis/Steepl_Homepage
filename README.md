@@ -20,8 +20,6 @@
 ## What is Steepl?
 Steepl is a mobile app that gives a user access to topic-organized, curated Christian content to provide a meaningful, online substitute or replacement for church. The goal of Steepl goal is to provide a constant, self-driven, free church experience to everyone.
 
-------------
-
 ## Key Features
 - Content organized by mental states.
 - Topic of the Day.
@@ -33,6 +31,8 @@ Steepl is a mobile app that gives a user access to topic-organized, curated Chri
 - How Are You Feeling feature to help you discover content depending on your general state of mind.
 
 <br>
+
+------------
 
 # Design Diagrams
 ## Usage Flow Chart
