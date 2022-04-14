@@ -5,33 +5,11 @@
 ![](https://img.shields.io/itunes/v/1617553884?style=flat-square)
 ![Custom badge](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplayshields.herokuapp.com%2Fplay%3Fi%3Dcom.lundexsoftware.steepl%26l%3DAndroid%26m%3D%24version)
 <br>
-<div style="display: flex; flex-direction: row;">
-
-<div style="margin-right: 6px;">
 
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
-</div>
-
-<div style="margin-right: 6px;">
-
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) 
-
-</div>
-
-<div style="margin-right: 6px;">
-
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-
-</div>
-
-<div style="margin-right: 6px;">
-
 ![YouTube](https://img.shields.io/badge/Data_API_v3-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
-
-</div>
-
-</div style="margin-right: 6px;">
 
 # What is Steepl?
 Steepl is a mobile app that gives a user access to topic-organized Christian content to provide a meaningful, online substitute or replacement for church. The goal of Steepl goal is to provide a constant, self-driven, free church experience to everyone.
