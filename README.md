@@ -7,11 +7,10 @@
 <a href='https://play.google.com/store/apps/details?id=com.lundexsoftware.steepl'>![Custom badge](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplayshields.herokuapp.com%2Fplay%3Fi%3Dcom.lundexsoftware.steepl%26l%3DAndroid%26m%3D%24version)
 <br>
 
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) 
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![YouTube](https://img.shields.io/badge/Data_API_v3-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
-
+<a href='https://github.com/facebook/react-native'>![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)</a>
+<a href='https://github.com/reduxjs/redux-toolkit'>![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) </a>
+<a href='https://firebase.google.com/'>![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)</a>
+<a href='https://developers.google.com/youtube/v3'>![YouTube](https://img.shields.io/badge/Data_API_v3-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)</a>
 
 ------------
 
