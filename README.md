@@ -5,7 +5,7 @@
 <a href='https://apps.apple.com/us/app/steepl/id1617553884'>![](https://img.shields.io/itunes/v/1617553884?style=flat-square)</a>
 <a href='https://play.google.com/store/apps/details?id=com.lundexsoftware.steepl'>![Custom badge](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplayshields.herokuapp.com%2Fplay%3Fi%3Dcom.lundexsoftware.steepl%26l%3DAndroid%26m%3D%24version)</a>
 
-<div>Powered by:</div>
+<div style="margin-top: -8px;">Powered by:</div>
 
 <a href='https://github.com/facebook/react-native'>![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)</a>
 <a href='https://github.com/reduxjs/redux-toolkit'>![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) </a>
