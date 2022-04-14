@@ -1,6 +1,6 @@
 # Editor.md
 
-<img src="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/SteeplBanner.png" width=80% height=auto/>
+<img src="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/SteeplBanner.png"/>
 
 ![](https://img.shields.io/itunes/v/1617553884?style=flat-square)
 ![Custom badge](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplayshields.herokuapp.com%2Fplay%3Fi%3Dcom.lundexsoftware.steepl%26l%3DAndroid%26m%3D%24version)
