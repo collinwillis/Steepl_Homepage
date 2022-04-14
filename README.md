@@ -18,7 +18,7 @@
 # Overview
 
 ## What is Steepl?
-Steepl is a mobile app that gives a user access to topic-organized Christian content to provide a meaningful, online substitute or replacement for church. The goal of Steepl goal is to provide a constant, self-driven, free church experience to everyone.
+Steepl is a mobile app that gives a user access to topic-organized, curated Christian content to provide a meaningful, online substitute or replacement for church. The goal of Steepl goal is to provide a constant, self-driven, free church experience to everyone.
 
 ------------
 
@@ -35,14 +35,12 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
 <br>
 
 # Design Diagrams
-------------
 ## Usage Flow Chart
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/flowchart.png' width=480>
 </div>
 
 ##
-------------
 
 <br>
 
@@ -51,7 +49,7 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/sitemap.png' width=480>
 </div>
 
-------------
+##
 
 <br>
 
@@ -60,7 +58,7 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/er_diagram.png' width=480>
 </div>
 
-------------
+##
 
 <br>
 
@@ -69,13 +67,11 @@ Steepl is a mobile app that gives a user access to topic-organized Christian con
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/video_diagram1.png' width=480>
 </div>
 
-------------
+##
 
 <br>
 
 # Code Snippits
-------------
-<br>
 
 ## Topic of the Day Function
 ```javascript
@@ -106,8 +102,7 @@ const topicOTD = async () => {
     });
 };
 ```
-------------
-<br>
+##
 
 ## Youtube Data API Video Retrieval Function
 ```javascript
@@ -131,8 +126,7 @@ async function getVideoDetailsAsJSON(videoIDs) {
   return videoJson;
 }
 ```
-------------
-<br>
+##
 
 ## "How Are You Feeling" Content Randomizer Function
 ```javascript
@@ -186,8 +180,7 @@ useEffect(async () => {
 ```
 
 
-------------
-<br>
+##
 
 # Credits/Links
 Technologies/Software that power Steepl:
