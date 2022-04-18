@@ -27,39 +27,73 @@ Steepl is a mobile app that gives a user access to topic-organized, curated Chri
 - Favoriting any content to save for later.
 - How Are You Feeling feature to help you discover content depending on your general state of mind.
 
+<br>
+
 ------------
 
+<br>
+
 # Design Diagrams
+
+## Solution Diagram
+#### <a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/SolutionDiagram.png">Diagram Link</a>
+
+<div align="center">
+    <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/SolutionDiagram.png' width=480>
+
+    The challenge of this project is to create a dynamic mobile application using React Native and Component/View design pattern to display data and source files from a database hosted in the cloud with Google Firestore.
+</div>
+
 ## Usage Flow Chart
+#### <a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/flowchart.png">Diagram Link</a>
+
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/flowchart.png' width=480>
+
+    This diagram shows the flow of the possible ways a user could interact with the application. This is not a sitemap.
 </div>
+
 
 ##
 
 <br>
 
 ## Sitemap
+#### <a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/sitemap.png">Diagram Link</a>
+
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/sitemap.png' width=480>
+
+    This is a sitemap for Steepl. This diagram shows all pages in the app and how they are connected to each other.
 </div>
+
+
 
 ##
 
 <br>
 
 ## Schema Design Diagram
+#### <a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/er_diagram.png">Diagram Link</a>
+
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/er_diagram.png' width=480>
+
+    Steepl uses a NoSQL firestore database. This diagram shows the database collections' and subcollections' structure.
 </div>
 
 ##
 
 <br>
 
-## Video Retrieval Diagram
+## Youtube Video Detail Retrieval Diagram
+#### <a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/video_diagram1.png?raw=true">Diagram Link</a>
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/video_diagram1.png' width=480>
+
+    This diagram demonstrates the method behind how Youtube videos and their properties like title, thumbnail, creator, etc. are interacted with by the Steepl application. 
+    Firebase stores a Youtube video ID and that is used with the Youtube Data API to return required data about the video’s properties. When a video is clicked the Steepl application will open the Youtube application on the user’s device by combining a YouTube URL with the ID to open the clicked video.
+
 </div>
 
 ##
@@ -97,6 +131,15 @@ const topicOTD = async () => {
     });
 };
 ```
+<div align="center">
+This function is called everytime the user launches the app. This function checks if a topic of the day is set in the database for the user's current date. If a topic of the day document is not present then this function will select a random topic from the database and set that as the topic of the day for that date.
+</div>
+<br>
+
+------------
+
+<br>
+
 ##
 
 ## Youtube Data API Video Retrieval Function
@@ -121,6 +164,15 @@ async function getVideoDetailsAsJSON(videoIDs) {
   return videoJson;
 }
 ```
+<div align="center">
+This function takes in the video IDs from the database, fetches the video details for each ID via the YouTube Data API, and stores the retrieved data in JSON format in a returned array.
+</div>
+<br>
+
+------------
+
+<br>
+
 ##
 
 ## "How Are You Feeling" Content Randomizer Function
@@ -173,9 +225,48 @@ useEffect(async () => {
     });
   }, [topics]);
 ```
+<div align="center">
+This function is called when the user selects a mood from the "How Are You Feeling" options (moods). This function retrieves a set quantity of each content type (verses, videos, and testimonies) from each topic that has the same scale level as the mood selected. The retrieved content is randomized and then returned.
+</div>
+<br>
 
+------------
+
+<br>
 
 ##
+
+# Downloadable Documents
+
+<a href="https://github.com/collinwillis/Steepl_Homepage/blob/main/Assets/Steepl_Project_Proposal.docx?raw=true" download>Project_Proposal.docx</a>
+
+<a href="https://github.com/collinwillis/Steepl_Homepage/blob/main/Assets/Steepl_Project_Requirements.docx?raw=true" download>Project_Requirements.docx</a>
+
+<a href="https://github.com/collinwillis/Steepl_Homepage/blob/main/Assets/Steepl_Design_Spec.docx?raw=true" download>Design_Specifications.docx</a>
+
+<a href="https://github.com/collinwillis/Steepl_Homepage/blob/main/Assets/Steepl_user_stories.xls?raw=true" download>User_Stories.xls</a>
+
+<a href="https://github.com/collinwillis/Steepl_Homepage/blob/main/Assets/Traceability_Matrix.xls?raw=true" download>Tracability_Matrix.xls</a>
+
+<a href="https://github.com/collinwillis/Steepl_Homepage/blob/main/Assets/Steeple_TestCase.xls?raw=true" download>Test_Cases.xls</a>
+
+<br>
+<br>
+
+# Diagram Image Links
+
+<a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/SolutionDiagram.png">Solution_Diagram.png</a>
+
+<a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/flowchart.png">Usage_Flow_Diagram.png</a>
+
+<a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/sitemap.png">Sitemap.png</a>
+
+<a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/er_diagram.png">Schema_Design_Diagram.png</a>
+
+<a href="https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/video_diagram1.png?raw=true">Youtube_Video_Detail_Retrieval_Diagram.png</a>
+
+<br>
+<br>
 
 # Credits/Links
 Technologies/Software that power Steepl:
