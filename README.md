@@ -27,11 +27,7 @@ Steepl is a mobile app that gives a user access to topic-organized, curated Chri
 - Favoriting any content to save for later.
 - How Are You Feeling feature to help you discover content depending on your general state of mind.
 
-<br>
-
 ------------
-
-<br>
 
 # Design Diagrams
 
