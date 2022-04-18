@@ -37,7 +37,7 @@ Steepl is a mobile app that gives a user access to topic-organized, curated Chri
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/SolutionDiagram.png' width=480>
 
-    The challenge of this project is to create a dynamic mobile application using React Native and Component/View design pattern to display data and source files from a database hosted in the cloud with Google Firestore.
+The challenge of this project is to create a dynamic mobile application using React Native and Component/View design pattern to display data and source files from a database hosted in the cloud with Google Firestore.</p>
 </div>
 
 ## Usage Flow Chart
@@ -46,7 +46,7 @@ Steepl is a mobile app that gives a user access to topic-organized, curated Chri
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/flowchart.png' width=480>
 
-    This diagram shows the flow of the possible ways a user could interact with the application. This is not a sitemap.
+This diagram shows the flow of the possible ways a user could interact with the application. This is not a sitemap.
 </div>
 
 
@@ -60,7 +60,7 @@ Steepl is a mobile app that gives a user access to topic-organized, curated Chri
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/sitemap.png' width=480>
 
-    This is a sitemap for Steepl. This diagram shows all pages in the app and how they are connected to each other.
+This is a sitemap for Steepl. This diagram shows all pages in the app and how they are connected to each other.
 </div>
 
 
@@ -75,7 +75,7 @@ Steepl is a mobile app that gives a user access to topic-organized, curated Chri
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/er_diagram.png' width=480>
 
-    Steepl uses a NoSQL firestore database. This diagram shows the database collections' and subcollections' structure.
+Steepl uses a NoSQL firestore database. This diagram shows the database collections' and subcollections' structure.
 </div>
 
 ##
@@ -87,8 +87,8 @@ Steepl is a mobile app that gives a user access to topic-organized, curated Chri
 <div align="center">
     <img src='https://raw.githubusercontent.com/collinwillis/Steepl_Homepage/main/Assets/video_diagram1.png' width=480>
 
-    This diagram demonstrates the method behind how Youtube videos and their properties like title, thumbnail, creator, etc. are interacted with by the Steepl application. 
-    Firebase stores a Youtube video ID and that is used with the Youtube Data API to return required data about the video’s properties. When a video is clicked the Steepl application will open the Youtube application on the user’s device by combining a YouTube URL with the ID to open the clicked video.
+This diagram demonstrates the method behind how Youtube videos and their properties like title, thumbnail, creator, etc. are interacted with by the Steepl application. 
+Firebase stores a Youtube video ID and that is used with the Youtube Data API to return required data about the video’s properties. When a video is clicked the Steepl application will open the Youtube application on the user’s device by combining a YouTube URL with the ID to open the clicked video.
 
 </div>
 
